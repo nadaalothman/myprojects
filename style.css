@@ -1,0 +1,125 @@
+body {
+background-repeat : no-repeat;
+background-attachment: fixed;
+align-items: center;
+}
+
+#calc{
+  padding: 17px;
+  height: 585px;
+  width: 400px;
+  background-color: #f6b320;
+  border-right: 15px solid #fec131;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top:50%;
+}
+
+#display{
+  color: #ffffff;
+  padding-left: 10px;
+  background-color: #345862;
+  width: 100%;
+  margin-bottom: 16px;
+  border: 20px;
+  font-size: 24px;
+  height: 90px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+input{
+  height:88px;
+  width:88px;
+  margin: 4px;
+  background-color:#24434c;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.operator , .operatorM , .operatorD{
+  font-size: 24px;
+  color: #24434c;
+  background-color: #ffffff;
+  font-weight: bold;
+  border: none;
+}
+
+
+.a-c{
+  color: #24434c;
+  background-color: #fec131;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+}
+
+.equal{
+  color: #24434c;
+  background-color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+}
+
+.c-keys{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+}
+
+.title{
+  position: absolute;
+  margin-top: 120px;
+  height: 150px;
+  width: 400px;
+  transform: translate(-50%,-50%);
+  left: 80%;
+  top:10%;
+}
+
+h1{
+  position: absolute;
+  margin-top: 120px;
+  color: #24434c;
+  font-size:60px;
+  font-family:Trebuchet MS Italic;
+  transform: translate(-50%,-50%);
+  left: 80%;
+  top:10%;
+}
+
+h2{
+  position: absolute;
+  margin-top: 260px;
+  color: #24434c;
+  font-size:30px;
+  font-family:sans-serif;
+  transform: translate(-50%,-50%);
+  left: 80%;
+  top:10%;
+}
+h3{
+  position: absolute;
+  margin-top: 300px;
+  color: #24434c;
+  font-size:30px;
+  font-family:sans-serif;
+  transform: translate(-50%,-50%);
+  left: 80%;
+  top:10%;
+}
+
+h4{
+  position: absolute;
+  margin-top: 350px;
+  color: #f6b320;
+  font-size:45px;
+  text-shadow: 2px 2px #24434c;
+  font-family:Trebuchet MS Italic;
+  transform: translate(-50%,-50%);
+  left: 80%;
+  top:10%;
+}
